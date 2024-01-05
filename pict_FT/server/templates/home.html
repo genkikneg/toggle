@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="ja">
+<head>
+    <script></script>
+    <link rel="stylesheet" href="{{url_for('static', filename='home.css')}}">
+    <title>Home</title>
+</head>
+<body>
+
+<h1>トグル式キーボード</h1>
+
+<hr>
+<h2>{{message}}</h2>
+<h6>{{numberName}}</h6>
+<hr>
+<form name="form" action="/form" method="GET">
+    <table>
+        <tr>
+            <td><button name="button" value="1"><br>1</br>.,!? </button></td>
+            <td><button name="button" value="2"><br>2</br>abc</button></td>
+            <td><button name="button" value="3"><br>3</br>def</button></td>
+        </tr>
+        <tr>
+            <td><button name="button" value="4"><br>4</br>ghi</button></td>
+            <td><button name="button" value="5"><br>5</br>jkl</button></td>
+            <td><button name="button" value="6"><br>6</br>mno</button></td>
+        </tr>
+        <tr>
+            <td><button name="button" value="7"><br>7</br>pqrs</button></td>
+            <td><button name="button" value="8"><br>8</br>tuv</button></td>
+            <td><button name="button" value="9"><br>9</br>wxyz</button></td>
+        </tr>
+        <tr>
+            <td><button name="button" value="X">X</button></td>
+            <td><button name="button" value="0">0</button></td>
+            <td><button name="button" value="Enter">Enter</button></td>
+        </tr>
+    </table>
+</form>
+<hr>
+</body>
+</html>

@@ -1,0 +1,16 @@
+h2{
+    padding-top: 10px;
+}
+h6{
+    color: gray;
+    padding-bottom: 10px;
+}
+button{
+    width: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+}
+table{
+    margin: 0 auto;
+}
